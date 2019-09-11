@@ -15,8 +15,7 @@ const Operators = (props) => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
       {operatorState.map(operator => 
-      <OperatorButton operator={operator}
-                      addOperator={props.addOperator} />
+      <OperatorButton operator={operator}/>
                       )}
     </div>
   );

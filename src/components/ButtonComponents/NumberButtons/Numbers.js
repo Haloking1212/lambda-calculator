@@ -16,8 +16,7 @@ const Numbers = (props) => {
        it any props needed by the child component*/}
       {numberState.map(number => {
         return <NumberButton key={number}
-                             text={number}
-                             addNumber={props.addNumber} />;
+                             text={number}/>;
       })}
     </div>
   );
